@@ -1,7 +1,7 @@
 # python-reference
 Python Reference Code, including acceptance testing using Robot Framework
 
-Make file contains commands needed. Mike was Here
+Make file contains commands needed.
 * `make bootstrap` Installs dependencies
 
 * `make build` Runs a build
