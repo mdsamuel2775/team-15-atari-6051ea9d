@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from enum import Enum
 
 #TODO: ADD THINGS YOU NEED FOR STATUS
+@dataclass
 class GameStatus:
     character_name: str = "Character"
     move_count: int = 0
