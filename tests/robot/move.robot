@@ -1,7 +1,7 @@
 *** settings ****
 Documentation   I want to move my character.  If they attempt to move past a boundary, the move results in no change in position.
 Test Template   Move Character
-Library         Move Library.py
+Library         MoveLibrary.py
 
 *** Test Cases ****              StartingX  StartingY  Direction  EndingX  EndingY
 Move in the middle of the board  0          0          NORTH      0        1
@@ -18,4 +18,4 @@ Move Character
 
 *** Settings ***
 ***      Example test case using the data-driven (table) syntax.
-***      hhtp://arcbotics.com/wp-content/uploads/2015/12/sparki-driver-icon.png
+***      http://arcbotics.com/wp-content/uploads/2015/12/sparki-driver-icon.png
