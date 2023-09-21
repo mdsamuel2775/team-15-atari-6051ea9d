@@ -17,6 +17,5 @@ Move Character
     Character yposition should be         ${endingY}
 
 *** Settings ***
-Documentation
 ***      Example test case using the data-driven (table) syntax.
 ***      hhtp://arcbotics.com/wp-content/uploads/2015/12/sparki-driver-icon.png
