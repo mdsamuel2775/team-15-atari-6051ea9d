@@ -4,7 +4,7 @@ from enum import Enum
 
 #TODO: ADD THINGS YOU NEED FOR STATUS
 class GameStatus:
-    character_name: str = "Character"
+    character_name: str = "Bob"
     move_count: int = 0
     running: bool = False
     current_position: tuple = (-100,-100)
