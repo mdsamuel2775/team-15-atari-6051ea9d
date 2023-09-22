@@ -1,4 +1,4 @@
-*** Settings ***
+ll*** Settings ***
 Documentation     Test start of game. That character should be like \n\n https://raw.githubusercontent.com/level-up-program/python-robot-reference/main/tests/robot/images/gamerErin.png
 Test Template     Start new game with character
 Library           StartGameLibrary.py
