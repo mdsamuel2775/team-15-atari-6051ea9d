@@ -16,13 +16,32 @@ class StartGameLibrary:
             )
 
     def number_of_map_positions_should_be(self, expected):
-        pass  # Not implemented
+         global current_y_position, current_x_position, total_move_count
+            total_move_count = total_move_count + 1
 
     def starting_X_coordinate_should_be(self, expected):
-        pass  # Not implemented
+        if action_choice == "W":
+            new_x_position = current_x_position - 1
+        if new_x_position >= 0 and new_x_position <= 9:
+            current_x_position =  new_x_position
+
+        if action_choice == "E":
+            new_x_position = current_x_position + 1
+        if new_x_position >= 0 and new_x_position <= 9:
+            current_x_position = new_x_position
+
 
     def starting_Y_coordinate_should_be(self, expected):
-        pass  # Not implemented
+         if action_choice == "N":
+            new_y_position = current_y_position + 1
+        if new_y_position >= 0 and new_y_position <= 9:
+            current_y_position = new_y_position
+
+        if action_choice == "S":
+            new_y_position = current_y_position - 1
+        if new_y_position >= 0 and new_y_position <= 9:
+            current_y_position = new_y_position
 
     def starting_move_count_should_be(self, expected):
-        pass  # Not implemented
+         global current_y_position, current_x_position, total_move_count
+            total_move_count = total_move_count + 1
