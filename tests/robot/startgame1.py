@@ -86,7 +86,7 @@ play_choice = input("\nWelcome "+name+" , would you like to play?").upper()
 if  play_choice == "Y" :
    print ("Great, Lets go!")
 else:
-   print ("\nYour cowardice is a discrace")
+   print ("\nYour cowardice is a disgrace")
    exit()
 
 while play_choice == "Y":
